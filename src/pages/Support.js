@@ -171,8 +171,8 @@ function Support() {
             <div className="pt-32 pb-12 md:pt-40 md:pb-20">
 
               {/* Section header */}
-              <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-                <h1 className="h1">Have a question about Simple? Contact us directly</h1>
+              <div className="max-w-4xl mx-auto text-center pb-12 md:pb-16">
+                <h1 className="h1">Have a question about Audimojis? Contact us directly</h1>
               </div>
 
               {/* Contact form */}
@@ -211,8 +211,8 @@ function Support() {
                 </div>
                 <div className="flex flex-wrap -mx-3 mb-4">
                   <div className="w-full px-3">
-                    <label className="block text-gray-800 text-sm font-medium mb-1" htmlFor="message">Message</label>
-                    <textarea onChange={e=>setMessage(e.target.value)} id="message" name="message" value={message} rows="4" className="form-textarea w-full text-gray-800" placeholder="Write your message"></textarea>
+                    <label className="block text-gray-800 text-sm font-medium mb-1" htmlFor="message">Message <span className="text-red-600">*</span></label>
+                    <textarea onChange={e=>setMessage(e.target.value)} id="message" name="message" value={message} rows="4" className="form-textarea w-full text-gray-800" placeholder="Write your message" required></textarea>
                   </div>
                 </div>
                 <div className="flex flex-wrap -mx-3 mt-4">
