@@ -221,7 +221,7 @@ return (
                 </li>
               </ul>
             </li> */}
-            <li className="py-2 my-2 border-b border-gray-200">
+            <li className="border-b border-gray-200">
               <Link to="/contact-us" className="flex text-gray-600 hover:text-gray-900 py-2">Contact us</Link>
             </li>
               {/* <li>
