@@ -33,7 +33,7 @@ function HeroHome() {
 
           {/* Section header */}
           <div className="text-center pb-12 md:pb-16">
-            <h1 className="text-5xl md:text-5.5xl font-bold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">Bring your messages to life with </h1>
+            <h1 className="text-5xl md:text-5xl font-bold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">Bring your messages to life with </h1>
             <h1 className="text-5xl md:text-6xl font-bold leading-tighter tracking-tighter mb-4 bg-clip-text text-transparent bg-gradient-to-r from-teal-50 to-yellow-50">AUDIMOJIS</h1>
             <div className="max-w-3xl mx-auto">
               <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">Send all the same emojis you already know and love but with sound! This iOS app will take messaging to a new level.</p>

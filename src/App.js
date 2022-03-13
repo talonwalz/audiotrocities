@@ -70,7 +70,7 @@ function App() {
         <Route path="/documentation">
           <Documentation />
         </Route>
-        <Route path="/support">
+        <Route path="/contact-us">
           <Help />
         </Route>
         <Route path="/signin">

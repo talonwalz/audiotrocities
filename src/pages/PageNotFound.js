@@ -40,7 +40,7 @@ function PageNotFound() {
                 {/* 404 content */}
                 <h1 className="h1 mb-4">Oh, No! You stumbled upon a rarity</h1>
                 <div className="mt-8">
-                  <Link to="/" className="btn text-white bg-blue-600 hover:bg-blue-700">Go back home</Link>
+                  <Link to="/" className="btn text-white bg-teal-50 hover:bg-yellow-50">Go back home</Link>
                 </div>
               </div>
             </div>

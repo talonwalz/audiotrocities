@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import Transition from '../utils/Transition.js';
-import Dropdown from '../utils/Dropdown';
+// import Dropdown from '../utils/Dropdown';
 import logo from '../images/audimojisIcon.png';
 
 function Header(props) {
@@ -97,9 +97,9 @@ return (
             <Link to="/blog" className="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">Blog</Link>
           </li>               */}
           {/* 1st level: hover */}
-          <Dropdown title="Resources">
+          {/* <Dropdown title="Resources"> */}
             {/* 2nd level: hover */}
-            <li>
+            {/* <li>
               <Link to="/documentation" className="font-medium text-sm text-gray-600 hover:text-gray-900 flex py-2 px-5 leading-tight">Documentation</Link>
             </li>
             <li>
@@ -114,10 +114,10 @@ return (
             <li>
               <a href='#hero-home' className='page-scroll font-medium text-sm text-gray-600 hover:text-gray-900 flex py-2 px-5 leading-tight'>home</a>
             </li>
-          </Dropdown>
+          </Dropdown> */}
           
           <li>
-              <Link to="/support" className="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">Contact us</Link>
+              <Link to="/contact-us" className="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">Contact us</Link>
             </li>
         </ul>
 
@@ -207,7 +207,7 @@ return (
                 <Link to="/blog" className="flex text-gray-600 hover:text-gray-900 py-2">Blog</Link>
               </li>                                   
               */}
-            <li className="py-2 my-2 border-t border-b border-gray-200">
+            {/* <li className="py-2 my-2 border-t border-b border-gray-200">
               <span className="flex text-gray-600 hover:text-gray-900 py-2">Resources</span>
               <ul className="pl-4">
                 <li>
@@ -220,9 +220,9 @@ return (
                   <Link to="/404" className="text-sm flex font-medium text-gray-600 hover:text-gray-900 py-2">404</Link>
                 </li>
               </ul>
-            </li>
-              <li className="py-2 my-2 border-b border-gray-200">
-              <Link to="/support" className="flex text-gray-600 hover:text-gray-900 py-2">Contact us</Link>
+            </li> */}
+            <li className="py-2 my-2 border-b border-gray-200">
+              <Link to="/contact-us" className="flex text-gray-600 hover:text-gray-900 py-2">Contact us</Link>
             </li>
               {/* <li>
                 <Link to="/signin" className="flex font-medium w-full text-gray-600 hover:text-gray-900 py-2 justify-center">Sign in</Link>
