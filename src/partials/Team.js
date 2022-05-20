@@ -8,7 +8,7 @@ function Team() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2">The humans behind the product</h2>
+            <h2 className="h2">The humans behind Audiomojis</h2>
           </div>
 
           {/* Team members */}
@@ -20,7 +20,7 @@ function Team() {
                 <img className="rounded-full mb-4" src={require('../images/team-member-01.jpg').default} width="120" height="120" alt="Team member 01" />
                 <h4 className="text-xl font-bold mb-1">Glenn Sugden</h4>
                 <div className="text-teal-50 font-medium mb-2">CEO & Co-founder</div>
-                <p className="text-gray-600 text-center mb-3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum sint occaecat cupidatat.</p>
+                <p className="text-gray-600 text-center mb-3">Experienced Founder with a demonstrated history of working in the e-learning industry. Skilled in iOS Design, Computer Science, Game Programming, Media Production, and HTML. Strong entrepreneurship professional with a Bachelor of Science (BS) focused in Computer Science from University of California, Berkeley. </p>
                 <div className="text-sm text-gray-600 font-medium">
                   <a className="text-gray-900 hover:underline" href="#0">Twitter</a> · <a className="text-gray-900 hover:underline" href="#0">GitHub</a> · <a className="text-gray-900 hover:underline" href="#0">LinkedIn</a>
                 </div>
@@ -70,7 +70,7 @@ function Team() {
             <div className="sm:w-1/2 md:w-1/3 py-6 sm:py-8 sm:px-3" data-aos="zoom-y-out" data-aos-delay="600" data-aos-anchor="[data-aos-id-team]">
               <div className="flex flex-col items-center">
                 <img className="rounded-full mb-4" src={require('../images/team-member-05.jpg').default} width="120" height="120" alt="Team member 05" />
-                <h4 className="text-xl font-bold mb-1">Jessie Pietrasiak</h4>
+                <h4 className="text-xl font-bold mb-1">Ben Pietrasiak</h4>
                 <div className="text-teal-50 font-medium mb-2">Head of Design</div>
                 <p className="text-gray-600 text-center mb-3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum sint occaecat cupidatat.</p>
                 <div className="text-sm text-gray-600 font-medium">

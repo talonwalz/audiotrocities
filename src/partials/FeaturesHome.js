@@ -30,7 +30,7 @@ function FeaturesHome() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h2 mb-4">How Audimojis works</h1>
+            <h1 className="h2 mb-4">How Audiomojis works</h1>
             <p className="text-xl text-gray-600">Pick any emoji and send it with sound.</p>
           </div>
 
@@ -46,7 +46,7 @@ function FeaturesHome() {
             <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-6" data-aos="fade-right">
               <div className="md:pr-4 lg:pr-12 xl:pr-16 mb-8">
                 <h3 className="h3 mb-3">Emojis that speak</h3>
-                <p className="text-xl text-gray-600">Tap the emoji to bring it to life. Audiomojis brings a whole new level to messaging.</p>
+                <p className="text-xl text-gray-600">Tap the emoji to bring it to life. Audiomojis brings a whole new aspect to messaging.</p>
               </div>
               {/* Tabs buttons */}
               <div className="mb-8 md:mb-0">

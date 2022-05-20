@@ -13,8 +13,8 @@ function FeaturesBlocks() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">What's your foavorite emoji?</h2>
-            <p className="text-xl text-gray-600">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.</p>
+            <h2 className="h2 mb-4">What's your favorite emoji?</h2>
+            <p className="text-xl text-gray-600">We have sounds for every emoji!</p>
           </div>
 
           {/* Items */}

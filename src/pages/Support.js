@@ -12,7 +12,6 @@ function Support() {
   const [email, setEmail] = useState('');
   const [subject, setSubject] = useState('');
   const [message, setMessage] = useState('');
-  // const [country, setCountry] = useState('');
   
   const form = useRef();
   const sendEmail = (e) => {
@@ -63,7 +62,7 @@ function Support() {
 
               {/* Section header */}
               <div className="max-w-4xl mx-auto text-center pb-12 md:pb-16">
-                <h1 className="h1">Have a question about Audimojis?</h1>
+                <h1 className="h1">Have a question about Audiomojis?</h1>
               </div>
 
               {/* Contact form */}
