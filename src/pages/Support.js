@@ -58,11 +58,11 @@ function Support() {
         {/* Contact section */}
         <section className="bg-gradient-to-b from-gray-100 to-gray-200">
           <div className="max-w-6xl mx-auto px-4 sm:px-6">
-            <div className="pt-32 pb-12 md:pt-32 md:pb-20">
+            <div className="pt-32 pb-12 md:pt-20 md:pb-20">
 
               {/* Section header */}
               <div className="max-w-4xl mx-auto text-center pb-12 md:pb-16">
-                <h1 className="h1">Have a question about Audiomojis?</h1>
+                <h1 className="h2">Have a question about Audiomojis?</h1>
               </div>
 
               {/* Contact form */}

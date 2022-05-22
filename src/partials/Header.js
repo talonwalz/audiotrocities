@@ -52,7 +52,7 @@ return (
       <div className="flex-shrink-0 mr-4 ">
         {/* Logo */}
         <Link to="/" className="block" aria-label="Cruip" >
-          <img className="w-fit h-20" src={logo} alt="audimojis" />
+          <img className="w-fit h-20" src={logo} alt="audiomojis" />
         </Link>
       </div>
       {/* Website Name */}
@@ -60,7 +60,7 @@ return (
 
       {/* Desktop navigation */}
       <nav className="hidden md:flex md:flex-grow">
-      {/* <img src={logo} alt="audimojis"/> */}
+      {/* <img src={logo} alt="audiomojis"/> */}
         {/* Desktop menu links */}
         <ul className="flex flex-grow justify-end flex-wrap items-center">
         { location.pathname !== '/' ?
@@ -78,8 +78,9 @@ return (
         {
           location.pathname === '/about' ?
           <>
-            <a href='#intro' className='page-scroll text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out'>About us</a>
-            <a href='#team' className='page-scroll text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out'>Team</a>
+          <Link to="/about" className="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">About us</Link>
+            {/* <a href='#intro' className='page-scroll text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out'>About us</a>
+            <a href='#team' className='page-scroll text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out'>Team</a> */}
           </>
       :
             <li>
@@ -109,7 +110,7 @@ return (
               <Link to="/404" className="font-medium text-sm text-gray-600 hover:text-gray-900 flex py-2 px-5 leading-tight">404</Link>
             </li>
             <li>
-            <Link to="/pricing" className="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">Audimojis</Link>
+            <Link to="/pricing" className="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">Audiomojis</Link>
           </li>
             <li>
               <a href='#hero-home' className='page-scroll font-medium text-sm text-gray-600 hover:text-gray-900 flex py-2 px-5 leading-tight'>home</a>
