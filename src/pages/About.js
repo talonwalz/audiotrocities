@@ -1,8 +1,8 @@
 import React from 'react';
 
 import Header from '../partials/Header';
-import AboutIntro from '../partials/AboutIntro';
-import AboutStory from '../partials/AboutStory';
+// import AboutIntro from '../partials/AboutIntro';
+// import AboutStory from '../partials/AboutStory';
 // import Stats from '../partials/Stats';
 import Team from '../partials/Team';
 // import Career from '../partials/Career';

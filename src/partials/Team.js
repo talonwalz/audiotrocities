@@ -74,7 +74,7 @@ function Team() {
                 <div className="text-teal-50 font-medium mb-2">Software Engineer</div>
                 <p className="text-gray-600 text-center mb-3">Born and raised in Sedona, AZ and is now happily married and lives in Saratoga Springs, UT. Enjoys getting outside and being active.</p>
                 <div className="text-sm text-gray-600 font-medium">
-                  · <a className="text-gray-900 hover:underline" target="_blank" rel='norferrer' href="https://www.linkedin.com/in/talon-walz/">LinkedIn</a> ·
+                  · <a className="text-gray-900 hover:underline" target="_blank" rel="noreferrer"  href="https://www.linkedin.com/in/talon-walz/">LinkedIn</a> ·
                 </div>
               </div>
             </div>

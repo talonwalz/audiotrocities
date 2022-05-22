@@ -187,8 +187,9 @@ return (
           {
           location.pathname === '/about' ?
           <li>
-            <a onClick={() => setMobileNavOpen(!mobileNavOpen)} href='#intro' className='page-scroll flex text-gray-600 hover:text-gray-900 py-2'>About us</a>
-            <a onClick={() => setMobileNavOpen(!mobileNavOpen)} href='#team' className='page-scroll flex text-gray-600 hover:text-gray-900 py-2'>Team</a>
+            <Link to="/about" className="flex text-gray-600 hover:text-gray-900 py-2">About us</Link>
+            {/* <a onClick={() => setMobileNavOpen(!mobileNavOpen)} href='#intro' className='page-scroll flex text-gray-600 hover:text-gray-900 py-2'>About us</a>
+            <a onClick={() => setMobileNavOpen(!mobileNavOpen)} href='#team' className='page-scroll flex text-gray-600 hover:text-gray-900 py-2'>Team</a> */}
           </li>
           :
           <li>
